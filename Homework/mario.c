@@ -42,16 +42,16 @@ int chooseHeight(void)
 
 void pyramid(int height, int version)
 {
-    for(int i = 0; i < height; i++)
+    for(int i = 1; i <= height; i++)
     {
         if (version == 2)
         {
-            for(int j = 0; j < height-(i+1); j++)
+            for(int j = 0; j < height-i; j++)
             {
                 printf(" ");
             }
 
-            for(int j = 0; j < i+1; j++)
+            for(int j = 0; j < i; j++)
             {
                 printf("#");
             }
@@ -59,7 +59,7 @@ void pyramid(int height, int version)
             printf("  ");
         }
 
-        for(int j = 0; j < i+1; j++)
+        for(int j = 0; j < i; j++)
         {
             printf("#");
         }
