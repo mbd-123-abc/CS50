@@ -1,3 +1,7 @@
+//Mahika Bagri 
+//CS50
+//2 December 2025 
+
 #include <stdio.h>
 #include <string.h>
 #include <stdbool.h>
