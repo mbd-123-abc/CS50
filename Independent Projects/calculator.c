@@ -1,3 +1,6 @@
+//Mahika Bagri 
+//31 November 2025 
+
 #include <stdio.h>
 #include <math.h>
 
